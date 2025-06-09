@@ -3,23 +3,32 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "mg-alz-root-npd"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "mg-platform-npd"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "mg-platform-npd"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "mg-platform-management-npd"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "mg-platform-connectivity-npd"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "mg-landingzones-dev"
     },
+    "LandingZoneManagementGroup": {
+      "value": "mg-landingzones-ppd"
+    },
+    "LandingZoneManagementGroup": {
+      "value": "mg-landingzones-sit"
+    },
+    "LandingZoneManagementGroup": {
+      "value": "mg-landingzones-uat"
+    },                 
     "enableAMBAConnectivity": {
       "value": "Yes"
     },
@@ -60,7 +69,7 @@
       "value": "Yes"
     },
     "telemetryOptOut": {
-      "value": "No"
+      "value": "Yes"
     },
     "bringYourOwnUserAssignedManagedIdentity": {
       "value": "No"
@@ -69,20 +78,20 @@
       "value": ""
     },
     "userAssignedManagedIdentityName": {
-      "value": "id-amba-prod-001"
+      "value": "id-amba-bdonprd3-001"
     },
     "managementSubscriptionId": {
-      "value": ""
+      "value": "1543411c-a55d-46d6-93bf-2e585fd51376"
     },
     "ALZMonitorResourceGroupName": {
-      "value": "rg-amba-monitoring-001"
+      "value": "rg-amba-bdonprd3-001"
     },
     "ALZMonitorResourceGroupLocation": {
-      "value": "eastus"
+      "value": "southeastasia"
     },
     "ALZMonitorResourceGroupTags": {
       "value": {
-        "Project": "amba-monitoring"
+        "Project": "amba-bdonprd3"
       }
     },
     "ALZMonitorDisableTagName": {
@@ -97,7 +106,7 @@
       ]
     },
     "ALZMonitorActionGroupEmail": {
-      "value": []
+      "value": ["chianwong@microsoft.com"]
     },
     "ALZLogicappResourceId": {
       "value": ""
